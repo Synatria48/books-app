@@ -15,7 +15,7 @@ const BookList = () => {
   };
   return (
     <>
-      <div className="main-title">Amazon Best Sellers</div>
+      <div className="main-title">Amazon Best Sellers Kinat version</div>
       <section className="booklist">
         {books.map((item, idx) => {
           return <Book {...item} key={item.id} getBook={getBook} index={idx} />;
